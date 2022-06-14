@@ -12,6 +12,7 @@ void setup()
 void loop()
 {
   potVal = analogRead(potPin);
-  Serial.print(potVal);
+  Serial.print("PotVal = ");
+  Serial.println(potVal);
 
 }
