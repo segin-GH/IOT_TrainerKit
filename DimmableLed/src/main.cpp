@@ -1,7 +1,7 @@
 # include <Arduino.h>
 
 int ledPin = 9;
-int brightness ; //  use value from 0 to 255
+int brightness; //  use value from 0 to 255
 int delayTime = 100;
 
 void setup()
