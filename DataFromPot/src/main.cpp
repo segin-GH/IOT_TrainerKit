@@ -2,13 +2,12 @@
 
 void setup()
 {
-  pinMode(LED_BUILTIN,OUTPUT);
+  Serial.begin(9600);
+ pinMode(A0,INPUT);
 }
 
 void loop()
 {
-  digitalWrite(LED_BUILTIN,HIGH);
-  delay(50);
-  digitalWrite(LED_BUILTIN,LOW);
-  delay(50);
+ int val =  analogRead(A0);
+ Serial.println(val);
 }
