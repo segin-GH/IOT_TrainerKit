@@ -1,14 +1,16 @@
-# include <Arduino.h>
+#include <Arduino.h>
 
 void setup()
 {
   Serial.begin(9600);
- pinMode(A0,INPUT);
+  pinMode(2,INPUT);
+
 }
 
 void loop()
 {
- int val =  analogRead(A0);
 
+ int val =  digitalRead(2);
  Serial.println(val);
+
 }
