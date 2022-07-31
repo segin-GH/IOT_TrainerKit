@@ -8,7 +8,7 @@ revolution. Therefore, IOT has become the most important agenda in the globalisa
 the field of education. The IOT element has been widely engaged in higher education syllabus.
 Since the lack of availability of the products the students are not very familiar with these IOT
 products.
-Through this "IOT KIT" students will able to train and study different microcontrollers and devices with ease.
+Through this "IOT_TrainerKit" students will able to train and study different aspect's of IOT with ease.
 
 
 
